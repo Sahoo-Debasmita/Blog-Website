@@ -5,4 +5,8 @@ import Container from './Container/Container'
 import LogoutBtn from './Header/LogoutBtn'
 import Button from "./Button";
 import Input from "./Input";
-export {Header,Footer,Logo,Container,LogoutBtn,Button,Input}
+import Select from "./Select";
+import PostCard from "./PostCard";
+import Login from "./Login";
+import SignUp from "./SignUp";
+export {Header,Footer,Logo,Container,LogoutBtn,Button,Input,Select,PostCard,Login,SignUp}
