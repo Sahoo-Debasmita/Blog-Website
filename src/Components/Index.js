@@ -9,4 +9,5 @@ import Select from "./Select";
 import PostCard from "./PostCard";
 import Login from "./Login";
 import SignUp from "./SignUp";
-export {Header,Footer,Logo,Container,LogoutBtn,Button,Input,Select,PostCard,Login,SignUp}
+import AuthLayout from "./AuthLayout";
+export {Header,Footer,Logo,Container,LogoutBtn,Button,Input,Select,PostCard,Login,SignUp,AuthLayout}
