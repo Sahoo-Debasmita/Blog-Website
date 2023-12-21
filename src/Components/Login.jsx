@@ -14,7 +14,7 @@ function Login() {
  const Login=async (data)=>{
     setError("");
     try {
-     const session=await service.Login(date);
+     const session=await service.Login(data);
      if(session){
         const useData=await service.GetUserAccount();
             if(useData) Dispatch(LoginSlice(useData));
